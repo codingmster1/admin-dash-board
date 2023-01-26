@@ -176,7 +176,14 @@ aside .sidebar a
 aside .sidebar a span 
 {
     font-size: 1.6rem;
-    
+
+}
+
+aside .sidebar a:last-child
+{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
 }
 
 /*
