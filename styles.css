@@ -45,7 +45,7 @@ html
 
 body
 {
-    width: 35vw;
+    width: 100vw;
     height: 100vh;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.88rem;
@@ -57,7 +57,7 @@ body
 .container
 {
     display: grid;
-    width: 86%;
+    width: 95%;
     margin: 0 auto;
     gap: 0.8rem;
     grid-template-columns: 14rem auto 23rem;
@@ -75,6 +75,10 @@ img
     display: block;
     width: 100%;
 }
+
+
+
+/**********************SIDE BAR************************/
 
 .profile-photo
 {
@@ -256,6 +260,15 @@ aside .sidebar .reports
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
+
+/**********************END OF SIDE BAR************************/
+
+
+
+
+
+
+
 /* ================== MAIN ======================*/
 
 main 
@@ -280,6 +293,7 @@ main .date input[type='date']{
 
 main .insights
 {
+   
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
@@ -295,7 +309,7 @@ main .insights > div
     transition: all 300ms ease;
 }
 
-/*main .insights > div span
+main .insights > div span
 {
     padding: 0.5rem;
     border-radius: 50%;
@@ -306,7 +320,7 @@ main .insights > div:hover
 {
     box-shadow: none;
 }
-*/
+
 main .insights > div span 
 {
     background: coral;
@@ -315,3 +329,68 @@ main .insights > div span
     color: var(--color-white);
     font-size: 2rem;
 }
+
+main .insights > div.tests span
+{
+    background-color: var(--color-danger);
+}
+
+main .insights > div.cure span
+{
+    background-color: var(--color-success);
+}
+
+main .insights > div .middle
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .insights h3
+{
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+main .insights .progress
+{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+main .insights svg
+{
+   
+    width: 7rem;
+    height: 7rem;
+}
+
+main .insights svg circle
+{
+
+    fill: none;
+    stroke: var(--color-primary);
+    stroke-width: 14;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+}
+
+main .insights .wellness svg circle 
+{
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights .tests svg circle 
+{
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+
+
