@@ -84,7 +84,7 @@ h1
 
 h3
 {
-    font-size: 0.87rem;
+    font-size: 0.90rem;
 }
 
 h4
@@ -95,6 +95,11 @@ h4
 h5
 {
     font-size: 0.77rem;
+}
+
+p
+{
+    font-size: 9px;
 }
 
 
@@ -397,8 +402,8 @@ main .insights svg circle
     stroke-width: 14;
     stroke-linecap: round;
     transform: translate(5px, 5px);
-    stroke-dasharray: 110;
-    stroke-dashoffset: 92;
+    /*stroke-dasharray: 110;
+    stroke-dashoffset: 92; */
 }
 
 main .insights .wellness svg circle 
@@ -413,5 +418,22 @@ main .insights .tests svg circle
     stroke-dasharray: 80;
 }
 
+main .insights .cure svg circle
+{
+    stroke-dashoffset: 35;
+    stroke-dasharray: 110;
+}
+
+main .insights .progress .number
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
