@@ -436,4 +436,10 @@ main .insights .progress .number
     align-items: center;
 }
 
+main .insights small
+{
+    margin-top: 1.9rem;
+    display: block;
+}
+
 
