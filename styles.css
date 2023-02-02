@@ -470,3 +470,23 @@ main .recent-patients table:hover
     box-shadow: none;
 }
 
+main table tbody td
+{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td
+{
+    border: none;
+}
+
+main .recent-patients a 
+{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
+
