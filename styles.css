@@ -638,13 +638,13 @@ main .recent-patients a
 
 .right .med-orders .item.offline .icon
 {
-    background: var(--color-danger);
+    background: var(--color-success);
 
 }
 
 .right .med-orders .item.priority .icon
 {
-    background: var(--color-success);
+    background: var(--color-danger);
     
 }
 
@@ -671,7 +671,7 @@ main .recent-patients a
 }
 
 
-/* ================ MEDIA QUERIES ==================*/
+/* ================ MEDIA QUERIES LAPTOPS AND BIG TABLETS ==================*/
 
 @media screen and (max-width: 1200px)
 {
@@ -718,4 +718,21 @@ main .recent-patients a
         transform: translateX(-50%);
         margin: 2rem 0 0 8.8rem;
     }
+
+    main .recent-orders table
+    {
+        width: 83vw;
+    }
+
+    main table tbody tr td:last-child, main table tbody tr td:first-child
+    {
+        display:none;
+    }
+}
+
+/* ================ MEDIA QUERIES SMALL TABLETS AND MOBILE ==================*/
+
+@media screen and (max-width: 768px)
+{
+   
 }
