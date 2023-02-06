@@ -91,11 +91,18 @@ h1
 {
     font-weight: 800;
     font-size: 1rem;
+    color: var(--color-dark);
+}
+
+h2
+{
+    color:(--color-dark);
 }
 
 h3
 {
     font-size: 0.87rem;
+    color: var(--color-dark);
 }
 
 h4
@@ -206,6 +213,7 @@ aside h3
 {
     font-weight: 500;
 
+    color: var(--color-dark);
 }
 
 aside .sidebar a
@@ -579,6 +587,7 @@ main .recent-patients a
 .right .recent-updates h2
 {
     margin-top: 0.8rem;
+    color: var(--color-dark);
 }
 
 .right .recent-updates .updates
@@ -615,6 +624,7 @@ main .recent-patients a
 .right .med-orders h2 
 {
     margin-bottom: 0.8rem;
+    color: var(--color-dark);
 }
 
 .right .med-orders .item
