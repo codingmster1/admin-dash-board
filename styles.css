@@ -794,7 +794,7 @@ main .recent-patients a
    aside .sidebar a:last-child 
    {
     position: absolute;
-    bottom: 5rem;
+    bottom: 0.8rem;
    }
 
    aside .close
