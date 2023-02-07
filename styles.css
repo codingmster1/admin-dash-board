@@ -96,7 +96,7 @@ h1
 
 h2
 {
-    color:(--color-dark);
+    color: var(--color-dark);
 }
 
 h3
